@@ -30,5 +30,12 @@ app.raptorize = function() {
       }\
     });\
   </script>'
-  this.send()
+
+  var message = {
+    username: "MrNice",
+    text: raptorScript,
+    roomname: "Reactants"
+  };
+
+  this.send(message);
 }
