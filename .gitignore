@@ -5,6 +5,8 @@
 .LSOverride
 Icon
 
+bower_components
+
 # Thumbnails
 ._*
 # Files that might appear on external disk

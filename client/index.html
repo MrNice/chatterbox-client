@@ -4,9 +4,11 @@
     <meta charset="utf-8">
     <title>chatterbox</title>
     <link rel="stylesheet" href="styles/styles.css">
-
+    <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.min.css">
     <!-- dependencies -->
-    <script src="bower_components/jquery/jquery.min.js"></script>
+    <script src="../bower_components/jquery/jquery.min.js"></script>
+    <script src="../bower_components/underscore/underscore.js"></script>
+    <script src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
     <!-- your scripts -->
     <script src="scripts/config.js"></script>
     <script src="scripts/app.js"></script>
@@ -14,21 +16,9 @@
   <body>
     <div id="main">
       <h1>chatterbox</h1>
-      <!-- Your HTML goes here! -->
+      <button class="raptor btn btn-primary">Raptor</button>
+      <ul class="messages">
+      </ul>
     </div>
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
-<script>!window.jQuery && document.write('<script src="jquery-1.4.3.min.js"><\/script>')</script>
-<script src="http://yourjavascript.com/1142132143/jquery-raptorize-1-0.js"></script>
-<script type="text/javascript">
-  window.raptored = window.raptored || false;
-
-  $(window).load(function() {
-    if(!window.raptored) {
-      setTimeout(function(){$('body').append("<h2>RAPTORIZED - <3 MrNice </h2>")}, 2700);
-      $(document).raptorize({"enterOn" : "timer",'delayTime' : 2000});
-      window.raptored = true;
-    }
-  });
-</script>
   </body>
 </html>
